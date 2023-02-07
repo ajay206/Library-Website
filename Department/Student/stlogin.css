@@ -1,0 +1,29 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-image: url("images/1.jpg");
+}
+form {
+  padding: 20px 20px;
+  width: 500px;
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: skyblue;
+  box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+    perspective:1000px;
+  transform-style:preserve-3d;
+}
+h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.login .btn:hover {
+  background-color: black;
+  color: white;
+}
